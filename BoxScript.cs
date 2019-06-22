@@ -69,9 +69,9 @@ public class BoxScript : ModScript
     {
         if (arg0.name.Contains("Stage"))
         {
-            object_left = ModAssets.Instantiate<GameObject>("BoxL");
+            object_left = ModAssets.Instantiate<GameObject>("BoxL_pre");
             object_left.transform.localScale = new Vector3(0.09f, 0.09f, 0.09f);
-            object_right = ModAssets.Instantiate<GameObject>("BoxR");
+            object_right = ModAssets.Instantiate<GameObject>("BoxR_pre");
             object_right.transform.localScale = new Vector3(0.09f, 0.09f, 0.09f);
         }
     }
